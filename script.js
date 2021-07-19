@@ -23,14 +23,14 @@ closeBtn.addEventListener("click", function () {
 
 newTaskBtn.addEventListener("click", () => {
     if (toggle === 0) {
-        formSheet.style.cssText = "opacity: 1; transition: 1s ease-in;";
+        formSheet.style.cssText = "opacity: 1; transition: 0.6s ease-in;";
         toggle = 1;
     } else {
-        formSheet.style.cssText = "opacity: 0; transition: 0.5s ease-in;";
+        formSheet.style.cssText = "opacity: 0; transition: 0.3s ease-in;";
         toggle = 0;
     }
 });
 
 // ***********************************
 
-nameSpace.textContent = nameThing;
+// nameSpace.textContent = nameThing;

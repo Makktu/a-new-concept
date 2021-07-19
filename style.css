@@ -22,17 +22,30 @@ body {
 }
 
 .form {
+    margin: 10px;
     height: 50rem;
     width: 50rem;
     background: rgb(31, 29, 29);
-    border: 1px white solid;
+    /* border: 1px white solid; */
     opacity: 0;
     /* transition: 1.25s ease-in; */
 }
 
 input {
-    border: 3px green solid;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1.75rem;
+    padding-left: 10px;
+    margin-bottom: 7px;
 }
+
+textarea {
+    border-radius: 10px;
+    font-style: inherit;
+    font-size: 1.75rem;
+}
+
 .open {
     background: yellow;
     height: 30px;
@@ -51,7 +64,7 @@ input {
     margin-bottom: 5px;
 } */
 
-.extension {
+/* .extension {
     width: 10rem;
     height: 1.5rem;
     background: whitesmoke;
@@ -70,4 +83,4 @@ input {
     height: 1.5rem;
     background: whitesmoke;
     margin-bottom: 5px;
-}
+} */
