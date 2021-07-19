@@ -1,0 +1,73 @@
+body {
+    min-width: 100vw;
+    background: rgb(31, 29, 29);
+    /* color: whitesmoke; */
+}
+
+.new-task {
+    font-size: 2.5rem;
+    background: yellow;
+    width: 15rem;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 5px;
+}
+
+.new-task:hover {
+    background: whitesmoke;
+    transition: 0.5s;
+}
+
+.form {
+    height: 50rem;
+    width: 50rem;
+    background: rgb(31, 29, 29);
+    border: 1px white solid;
+    opacity: 0;
+    /* transition: 1.25s ease-in; */
+}
+
+input {
+    border: 3px green solid;
+}
+.open {
+    background: yellow;
+    height: 30px;
+    width: 30px;
+}
+.close {
+    background: red;
+    height: 30px;
+    width: 30px;
+}
+
+/* .name {
+    width: 10rem;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin-bottom: 5px;
+} */
+
+.extension {
+    width: 10rem;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.from-dept {
+    width: 10rem;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.to-dept {
+    width: 10rem;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin-bottom: 5px;
+}
